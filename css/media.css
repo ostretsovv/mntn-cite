@@ -1,0 +1,162 @@
+@media(max-width: 1400px) {
+    .header {
+        padding-bottom: 243px;
+    }
+}
+
+@media(max-width: 1200px) {
+    /* HEADER-HERO */
+    .hero-text {
+        font-size: 68px;
+    }
+
+    .hero-title{
+        font-size: 16px;
+        padding-left: 100px;
+    }
+
+    .hero-title::before{
+        width: 68px;
+    }
+
+    /* ARTICLE */
+
+    .article-text {
+        max-width: 50%;
+        padding-left: 50px;
+    }
+
+    .article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+    
+    .article-img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1100px) {
+    /* FOOTER */ 
+    .footer-nav-sec {
+        margin-left: 112px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    /* HEADER */
+    .header {
+        padding-bottom: 200px;
+    }
+
+
+    /* NAV */
+    .nav, .account{
+        display: none;
+    }
+
+    .nav-wrapper {
+        margin-bottom: 128px;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+        z-index: 8;
+    }
+
+    /* HERO */
+    .hero {
+        padding-right: 90px;
+        padding-left: 50px;
+    }
+
+    .hero-text {
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+
+    .hero-title{
+        font-size: 14px;
+        padding-left: 94px;
+    }
+
+    .hero-title::before{
+        width: 62px;
+    }   
+
+    /* ARTICLE */
+
+    .article-title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 720px) {
+    /* ARTICLE */
+    .article, .article:nth-child(even) {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .article-text {
+        max-width: 100%;
+        width: 100%;
+    }
+    .article-img {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    /* FOOTER */
+    .footer-row {
+        flex-direction: column-reverse;
+    }
+    .footer-nav {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 576px) {
+/* HERO */
+    .hero {
+        padding-right: 90px;
+        padding-left: 20px;
+    }
+
+/* NAV */
+    .nav-wrapper {
+        margin-bottom: 70px;
+    }
+
+/* FOOTER */
+    .footer-nav-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .footer-nav-sec {
+        margin-left: 0;
+    }
+
+    
+}
+
+@media(max-width:320px) {
+    /* BASE */
+    body {
+        background-size: auto 13%;
+        background-position: 1% 0;
+    } 
+
+/* NAV */
+    .nav-wrapper {
+        margin-bottom: 50px;
+    }
+
+}
